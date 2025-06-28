@@ -26,11 +26,14 @@ Nothing here is linked to real clients or money.
 1. **Start value**  
    Look in `portfolio_holdings/P003.csv` → `initial_value` column.  
    That is what the holding was worth on the buy date.
+   
+2. **Initial Portfolio’s value**  
+   Take the  Initial Purchase Value` from `/portfolio holdings/PXXX.csv` and multiply by `Inital Quanity Purchased`.   
 
-2. **Today’s value**  
-   Take the latest `close_price` from `/prices/I0X.csv` and multiply by `qty`.
+3. **Today’s value**  
+   Take the latest `close_price` from `/prices/` and multiply by `Inital Quanity Purchased`.
 
-3. **Return (%)**  
+4. **Return (%)**  
    `(today_value – initial_value) ÷ initial_value`.
 
 That’s it—no extra buys or sells to track.
@@ -39,7 +42,6 @@ That’s it—no extra buys or sells to track.
 
 * One currency for everything—pretend it’s all in pounds or dollars, your choice.  
 * All people and numbers are invented for learning only.  
-* Licence: MIT for any code you write; data can be reused if you credit **Tech Academia**.
 
 Have fun!
 
