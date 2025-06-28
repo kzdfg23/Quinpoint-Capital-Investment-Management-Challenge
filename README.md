@@ -1,0 +1,1 @@
+# Quintpoint-Capital-Investment-Management-Challenge
